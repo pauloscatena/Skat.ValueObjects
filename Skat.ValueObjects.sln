@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skat.ValueObjects.UserData", "src\Skat.ValueObjects.UserData\Skat.ValueObjects.UserData.csproj", "{F4133A14-42FF-4598-9796-A50D9E620A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skat.ValueObjects.Abstractions", "src\Skat.ValueObjects.Abstractions\Skat.ValueObjects.Abstractions.csproj", "{8C497C5C-B887-48D3-ACB0-8C4380D7D5E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skat.ValueObjects.UserData.Tests", "tests\Skat.ValueObjects.UserData.Tests\Skat.ValueObjects.UserData.Tests.csproj", "{F61AECF7-EC20-4F12-A79C-C72A2C265558}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4133A14-42FF-4598-9796-A50D9E620A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4133A14-42FF-4598-9796-A50D9E620A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4133A14-42FF-4598-9796-A50D9E620A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4133A14-42FF-4598-9796-A50D9E620A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C497C5C-B887-48D3-ACB0-8C4380D7D5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C497C5C-B887-48D3-ACB0-8C4380D7D5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C497C5C-B887-48D3-ACB0-8C4380D7D5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C497C5C-B887-48D3-ACB0-8C4380D7D5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61AECF7-EC20-4F12-A79C-C72A2C265558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61AECF7-EC20-4F12-A79C-C72A2C265558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61AECF7-EC20-4F12-A79C-C72A2C265558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61AECF7-EC20-4F12-A79C-C72A2C265558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BF5919B-B8A2-4B2D-A4AF-3BF858260C74}
+	EndGlobalSection
+EndGlobal
